@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import centerRouter from '@/router/routes/center'
 import cinemaRouter from '@/router/routes/cinema'
 import filmRouter from '@/router/routes/film'
+import detailRouter from '@/router/routes/detail'
 
 Vue.use(VueRouter)
 
@@ -12,6 +13,7 @@ const routes = [
   centerRouter,
   cinemaRouter,
   filmRouter,
+  detailRouter,
   {
     path: '/',
     redirect: '/film'
